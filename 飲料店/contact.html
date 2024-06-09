@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- 設定字符編碼 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 設定視口 -->
+  <title>XiJinPin</title> <!-- 網站標題 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- 引入Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- 引入自訂CSS檔案 -->
+  
+</head>
+<body>
+  <!-- 導覽列同主頁面 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="text-align: right;">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="XiJinPin Logo" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">主頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">關於我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">產品介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">最新消息</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">聯繫我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <div class="jumbotron jumbotron-fluid bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-4">聯繫我們</h1>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">姓名</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb -3">
+            <label for="email" class="form-label">電子郵件</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">留言</label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">送出</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>聯繫資訊</h5>
+        <p>地址: 632雲林縣虎尾鎮文化路64號</p>
+        <p>電話: (05) 631 5000</p>
+        <p>電子郵件: dot@xijinpin.com</p>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-light py-3"> <!-- 頁尾 -->
+    <div class="container text-center">
+      <p>&copy; XiJinPin 2024</p>
+    </div>
+  </footer>
+</body>
+<script>
+  var toggler = document.querySelector('.navbar-toggler');
+  toggler.addEventListener('click', function() {
+    toggler.classList.toggle('active');
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- 頁尾同

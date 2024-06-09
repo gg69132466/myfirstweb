@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-nav {
+  margin-right: 0; /* 移除預設的右邊距 */
+}
+
+.navbar-toggler {
+  transition: transform 0.5s ease;
+}
+
+.navbar-toggler.active {
+  transform: translateX(-10px);
+}
+
+.jumbotron {
+  background-image: url(images/Bubble-tea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  color: white;
+  padding: 5rem 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+.jumbotron p {
+  font-size: 1.5em;
+}
+
+.jumbotron .btn {
+  background-color: #ff0000; /* 將按鈕顏色改為紅色 */
+  color: white; /* 將按鈕文字顏色改為白色 */
+}
+
+.jumbotron-
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: #ff6347;
+  border-color: #ff6347;
+}
+
+.btn-primary:hover {
+  background-color: #ff4500;
+  border-color: #ff4500;
+}
+
+.large-image {
+  width: 500px;
+  height: auto;
+}

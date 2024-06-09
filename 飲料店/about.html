@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- 設定字符編碼 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 設定視口 -->
+  <title>XiJinPin</title> <!-- 網站標題 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- 引入Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- 引入自訂CSS檔案 -->
+  
+</head>
+<body>
+  <!-- 導覽列同主頁面 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="text-align: right;">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="XiJinPin Logo" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">主頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">關於我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">產品介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">最新消息</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">聯繫我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <div class="jumbotron jumbotron-fluid bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-4">關於我們</h1>
+    </div>
+  </div>
+
+  <div class="container my-5 text-center">
+    <img class="large-image" src="images/storefront.jpg" alt="精美店面">
+    <p>XiJinPin是一家專門提供高品質飲品的店家,我們堅持使用新鮮優質的食材,為顧客帶來最佳的品飲體驗。我們的飲品不僅味道出眾,更注重營養均衡,讓您在享受美味的同時也能攝取足夠的營養。</p>
+    <p>我們的目標是成為顧客心目中最值得信賴的飲品品牌,提供優質的產品和服務,讓每一位顧客都能享受到難忘的美味體驗。</p>
+    <p>在XiJinPin，我們深信，每一杯飲品都是一種藝術，一種對生活的熱愛。我們的團隊致力於創新，不斷尋找新的配方和口味，以滿足我們顧客的口味。我們的飲品種類豐富，從經典的奶茶到創新的果汁飲品，應有盡有。我們的目標是創造出令人驚艷的飲品，讓每一位顧客都能在XiJinPin找到他們的最愛。</p>
+    <p>我們的店面設計簡潔而現代，提供一個舒適的環境讓顧客可以放鬆並享受他們的飲品。我們的員工都受過專業的訓練，他們熱情友善，樂於助人，並且對我們的產品有深厚的了解。</p>      
+    <p>在XiJinPin，我們不僅僅是賣飲品，我們是在創造一種體驗，一種讓人們可以暫時忘記生活煩惱，享受當下的體驗。我們期待您的光臨，一起來享受這美好的時光吧！</p>
+  </div>
+
+  <!-- 頁尾同主頁面 -->
+  <footer class="bg-light py-3"> <!-- 頁尾 -->
+    <div class="container text-center">
+      <p>&copy; XiJinPin 2024</p>
+    </div>
+  </footer>
+  <script>
+    var toggler = document.querySelector('.navbar-toggler');
+    toggler.addEventListener('click', function() {
+      toggler.classList.toggle('active');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
