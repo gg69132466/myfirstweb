@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: bottom;
-  color: white;
+  color: rgb(252, 252, 252);
   padding: 5rem 1rem;
   margin-bottom: 2rem;
   text-align: left;
@@ -44,7 +44,7 @@ body {
 
 .jumbotron .btn {
   background-color: #ff0000; /* 將按鈕顏色改為紅色 */
-  color: white; /* 將按鈕文字顏色改為白色 */
+  color: rgb(167, 134, 134); /* 將按鈕文字顏色改為白色 */
 }
 
 .jumbotron-

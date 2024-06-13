@@ -42,47 +42,36 @@
   </nav>  
   <div class="jumbotron jumbotron-fluid bg-light py-5">
     <div class="container text-center">
-      <h1 class="display-4">聯繫我們</h1>
+      <h1 class="display-4" >產品詳情</h1>
     </div>
   </div>
 
   <div class="container my-5">
     <div class="row">
       <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">姓名</label>
-            <input type="text" class="form-control" id="name" required>
-          </div>
-          <div class="mb -3">
-            <label for="email" class="form-label">電子郵件</label>
-            <input type="email" class="form-control" id="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">留言</label>
-            <textarea class="form-control" id="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">送出</button>
-        </form>
+        <img src="images/product1.jpg" alt="milktea" class="img-fluid">
       </div>
       <div class="col-md-6">
-        <h5>聯繫資訊</h5>
-        <p>地址: 632雲林縣虎尾鎮文化路64號</p>
-        <p>電話: (05) 631 5000</p>
-        <p>電子郵件: dot@xijinpin.com</p>
+        <h2>鮮奶茶</h2>
+        <p>我們的鮮奶茶是使用頂級鮮奶和精選紅茶葉所製作而成,口感濃郁順口,香氣撲鼻,絕對是您品嚐過最美味的奶茶。</p>
+        <p>我們堅持使用天然食材,不添加任何人工香料或色素,保證每一杯奶茶都是純淨健康的。</p>
+        <p>無論是單純享用或搭配美食,鮮奶茶都是最佳的選擇。趕快前來品嚐這份獨特的美味吧!</p>
       </div>
     </div>
   </div>
+
+  <!-- 頁尾同主頁面 -->
   <footer class="bg-light py-3"> <!-- 頁尾 -->
     <div class="container text-center">
       <p>&copy; XiJinPin 2024</p>
     </div>
   </footer>
+  <script>
+    var toggler = document.querySelector('.navbar-toggler');
+    toggler.addEventListener('click', function() {
+      toggler.classList.toggle('active');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js "></script>
 </body>
-<script>
-  var toggler = document.querySelector('.navbar-toggler');
-  toggler.addEventListener('click', function() {
-    toggler.classList.toggle('active');
-  });
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
