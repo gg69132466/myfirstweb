@@ -39,15 +39,13 @@ body {
 }
 
 .jumbotron p {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .jumbotron .btn {
   background-color: #ff0000; /* 將按鈕顏色改為紅色 */
   color: rgb(167, 134, 134); /* 將按鈕文字顏色改為白色 */
 }
-
-.jumbotron-
 
 .card {
   border: none;
@@ -73,4 +71,15 @@ body {
 .large-image {
   width: 500px;
   height: auto;
+}
+
+.carousel-fixed {
+  width: 1300px; /* 設置固定的寬度 */
+  height: 750px; /* 設置固定的高度 */
+  overflow: hidden; /* 隱藏超出固定範圍的內容 */
+}
+
+.carousel-img {
+  object-fit: fill;/* 調整圖片填充模式 */
+  height: 750px; /* 設置圖片高度與容器相同 */
 }
